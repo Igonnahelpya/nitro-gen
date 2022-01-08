@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Nitro Generator</title>
+</head>
+<body>
+   <div id="NN">
+   </div>
+   <button onclick="NitroGen()">GENERATE!</button>
+</body>
+</html>
+<script>
+function NitroGen(){
+    const {remote} = require('electron');
+    setInterval(() => {
+        document.getElementById('NN').innerHTML = remote.getGlobal('sharedObj').randomstring
+    }, 1);
+    
+}
+</script>

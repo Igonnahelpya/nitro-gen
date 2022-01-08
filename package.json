@@ -1,4 +1,4 @@
 {
   "name":"nitrogen",
-  "main":"app.js"
+  "main":"src/app.js"
 }

@@ -1,11 +1,35 @@
 <html>
 <head>
   <title>Nitro Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-   <div id="NN">
+   <div class="container-fluid p-5 bg-primary text-white text-center">
+   <button class="btn btn-success" onclick="NitroGen()">GENERATE!</button>
    </div>
-   <button onclick="NitroGen()">GENERATE!</button>
+   <div class="container-fluid p-5 bg-success text-white text-center">
+   Result:
+      <div id="NN">
+   </div>
+   </div>
+ <div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>What is this?</h3>
+      <p>A new nitro gen!</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>How its works?</h3>
+      <p>Click Generate!</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Is this free ?</h3>        
+      <p>sure!</p>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
 <script>
